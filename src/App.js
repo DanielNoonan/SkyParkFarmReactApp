@@ -27,6 +27,7 @@ class App extends React.Component {
                 articleData: this.props.articleData2
             });
         }
+        window.scrollTo(0, 0)
         return;
     }
 
