@@ -1,12 +1,13 @@
 import React from 'react';
-import '../css-modules/_flexgrid.css';
-import '../css-modules/NewsItem.css';
+//import '../css-modules/_flexgrid.css';
+//import '../css-modules/NewsItem.css';
+//import '../assets/css/styles.css';
 
 const NewsItem = (props) => {
     console.log('this image:', props)
     return (
         <div className="small-12 news-column__content-item">
-            <h1 className="news-column__content-title">{props.articleData.title}</h1>
+            <h1 className="news-column__content-title">{props.articleData.newsColumnTitle}</h1>
 
             <img className="news-column__image" src={props.articleData.image} alt={props.articleData.altText} />
 
