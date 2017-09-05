@@ -1,0 +1,9 @@
+.full-page-row {
+    background-color: grey;
+    justify-content: space-around;
+}
+
+.content-area__article {
+    background-color: grey;
+    height: 100vh;
+}

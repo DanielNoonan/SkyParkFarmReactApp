@@ -1,0 +1,38 @@
+.news-column__content-item {
+    border-bottom: 2px solid blue;
+    padding: 0 1rem;
+}
+
+.news-column__image {
+    border-radius: 3%;
+}
+
+.news-column__content-title {
+    font-size: 3rem;
+}
+
+.news-column__intro-text {
+    font-size: 2.5rem;
+}
+
+.news-column__button {
+    background: grey;
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5%;
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 2rem;
+    transition: all 0.2s;
+}
+
+.news-column__button:hover {
+    color: gold;
+    background: blue;
+    border: 3px solid blue;
+}
