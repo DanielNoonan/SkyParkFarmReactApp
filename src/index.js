@@ -73,7 +73,7 @@ let articleData2 = {
     image: articleImageTwo,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Two',
-    mainArticleTitle: 'Article Two Subtitle Text',
+    mainArticleTitle: 'Baby Deer Born Last Week',
     mainArticleSubtitle: 'Article Two Subtitle Text',
     paragraph1: 'Full Article Text'
 }
@@ -83,7 +83,7 @@ let articleData3 = {
     image: articleImageThree,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Three',
-    mainArticleTitle: 'Article Three Subtitle Text',
+    mainArticleTitle: 'Luxury Accommodation',
     mainArticleSubtitle: 'Article Three Subtitle Text',
     paragraph1: 'Full Article Text'
 }
@@ -93,7 +93,7 @@ let articleData4 = {
     image: articleImageFour,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Four',
-    mainArticleTitle: 'Article Four Subtitle Text',
+    mainArticleTitle: 'Farm Renovation',
     mainArticleSubtitle: 'Article Four Subtitle Text',
     paragraph1: 'Full Article Text'
 }
@@ -103,7 +103,7 @@ let articleData5 = {
     image: articleImageFive,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Five',
-    mainArticleTitle: 'Article Five Subtitle Text',
+    mainArticleTitle: 'Deer Feeding Open To Public',
     mainArticleSubtitle: 'Article Five Subtitle Text',
     paragraph1: 'Full Article Text'
 }
@@ -113,7 +113,7 @@ let articleData6 = {
     image: articleImageSix,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Six',
-    mainArticleTitle: 'Article Six Subtitle Text',
+    mainArticleTitle: 'Name A Deer Competition',
     mainArticleSubtitle: 'Article Six Subtitle Text',
     paragraph1: 'Full Article Text'
 }
