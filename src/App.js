@@ -31,7 +31,7 @@ class App extends React.Component {
 
 
   render() {
-        console.log(this.props.frontPage, this.props.articleData1, this.props.articleData2);
+
     return (
 
         <div className='row full-page-row full-page-row--news-column-padding'>
