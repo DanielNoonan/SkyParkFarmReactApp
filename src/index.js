@@ -77,6 +77,7 @@ let articleData2 = {
     mainArticleSubtitle: 'Article Two Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+
 let articleData3 = {
     articleNumber: 3,
     newsColumnTitle: 'Quebec Cottage',
@@ -87,6 +88,7 @@ let articleData3 = {
     mainArticleSubtitle: 'Article Three Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+
 let articleData4 = {
     articleNumber: 4,
     newsColumnTitle: 'Farm Renovation',
@@ -97,6 +99,7 @@ let articleData4 = {
     mainArticleSubtitle: 'Article Four Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+
 let articleData5 = {
     articleNumber: 5,
     newsColumnTitle: 'Deer Feeding Open To Public',
@@ -107,6 +110,7 @@ let articleData5 = {
     mainArticleSubtitle: 'Article Five Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+
 let articleData6 = {
     articleNumber: 6,
     newsColumnTitle: 'Name A Deer Competition',
@@ -117,6 +121,8 @@ let articleData6 = {
     mainArticleSubtitle: 'Article Six Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+
+
 
 ReactDOM.render(
     <App frontPage={frontPage} articleData1={articleData1} articleData2={articleData2} articleData3={articleData3} articleData4={articleData4} articleData5={articleData5} articleData6={articleData6}/>,
