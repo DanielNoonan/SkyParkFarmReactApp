@@ -12,7 +12,11 @@ import frontPageImageFour from './assets/images/deer-following-dom-MEDIUM.jpg';
 import frontPageImageFive from './assets/images/open-space-MEDIUM.jpg';
 
 import articleImageOne from './assets/images/races-MEDIUM.jpg';
-import articleImageTwo from './assets/images/red-deer-close-up-MEDIUM.jpg';
+import articleImageTwo from './assets/images/mum-baby-deer-MEDIUM.jpg';
+import articleImageThree from './assets/images/quebec-cottage-MEDIUM.jpg';
+import articleImageFour from './assets/images/farm-renovation-MEDIUM.jpg';
+import articleImageFive from './assets/images/deer-grazing-lensflare-MEDIUM.jpg';
+import articleImageSix from './assets/images/red-deer-MEDIUM.jpg';
 
 let frontPage = {
     title: 'The Reintroduction of Red Deer into the Parish of Harting.',
@@ -65,7 +69,7 @@ let articleData1 = {
 
 let articleData2 = {
     articleNumber: 2,
-    newsColumnTitle: 'Article Title Two',
+    newsColumnTitle: 'Baby Deer Born Last Week',
     image: articleImageTwo,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Two',
@@ -73,9 +77,49 @@ let articleData2 = {
     mainArticleSubtitle: 'Article Two Subtitle Text',
     paragraph1: 'Full Article Text'
 }
+let articleData3 = {
+    articleNumber: 3,
+    newsColumnTitle: 'Quebec Cottage',
+    image: articleImageThree,
+    altText: 'This is some alternative text',
+    introText: 'Introduction Text Three',
+    mainArticleTitle: 'Article Three Subtitle Text',
+    mainArticleSubtitle: 'Article Three Subtitle Text',
+    paragraph1: 'Full Article Text'
+}
+let articleData4 = {
+    articleNumber: 4,
+    newsColumnTitle: 'Farm Renovation',
+    image: articleImageFour,
+    altText: 'This is some alternative text',
+    introText: 'Introduction Text Four',
+    mainArticleTitle: 'Article Four Subtitle Text',
+    mainArticleSubtitle: 'Article Four Subtitle Text',
+    paragraph1: 'Full Article Text'
+}
+let articleData5 = {
+    articleNumber: 5,
+    newsColumnTitle: 'Deer Feeding Open To Public',
+    image: articleImageFive,
+    altText: 'This is some alternative text',
+    introText: 'Introduction Text Five',
+    mainArticleTitle: 'Article Five Subtitle Text',
+    mainArticleSubtitle: 'Article Five Subtitle Text',
+    paragraph1: 'Full Article Text'
+}
+let articleData6 = {
+    articleNumber: 6,
+    newsColumnTitle: 'Name A Deer Competition',
+    image: articleImageSix,
+    altText: 'This is some alternative text',
+    introText: 'Introduction Text Six',
+    mainArticleTitle: 'Article Six Subtitle Text',
+    mainArticleSubtitle: 'Article Six Subtitle Text',
+    paragraph1: 'Full Article Text'
+}
 
 ReactDOM.render(
-    <App frontPage={frontPage} articleData1={articleData1} articleData2={articleData2}/>,
+    <App frontPage={frontPage} articleData1={articleData1} articleData2={articleData2} articleData3={articleData3} articleData4={articleData4} articleData5={articleData5} articleData6={articleData6}/>,
     document.getElementById('root')
 );
 registerServiceWorker();

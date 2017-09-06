@@ -32,6 +32,30 @@ class App extends React.Component {
                 articleData: this.props.articleData2,
                 showFrontPage: false
             });
+        } else if(articleNumber === 3) {
+            console.log(this.props.articleData3);
+            this.setState({
+                articleData: this.props.articleData3,
+                showFrontPage: false
+            });
+        } else if(articleNumber === 4) {
+            console.log(this.props.articleData4);
+            this.setState({
+                articleData: this.props.articleData4,
+                showFrontPage: false
+            });
+        } else if(articleNumber === 5) {
+            console.log(this.props.articleData5);
+            this.setState({
+                articleData: this.props.articleData5,
+                showFrontPage: false
+            });
+        } else if(articleNumber === 6) {
+            console.log(this.props.articleData6);
+            this.setState({
+                articleData: this.props.articleData6,
+                showFrontPage: false
+            });
         }
         window.scrollTo(0, 0)
         return;
@@ -59,6 +83,14 @@ class App extends React.Component {
                         <NewsItem articleData={this.props.articleData1} buttonClicked={() => this.buttonClicked(1)} />
 
                         <NewsItem articleData={this.props.articleData2} buttonClicked={() => this.buttonClicked(2)} />
+
+                        <NewsItem articleData={this.props.articleData3} buttonClicked={() => this.buttonClicked(3)} />
+
+                        <NewsItem articleData={this.props.articleData4} buttonClicked={() => this.buttonClicked(4)} />
+
+                        <NewsItem articleData={this.props.articleData5} buttonClicked={() => this.buttonClicked(5)} />
+
+                        <NewsItem articleData={this.props.articleData6} buttonClicked={() => this.buttonClicked(6)} />
 
                 </div>
             </div>
