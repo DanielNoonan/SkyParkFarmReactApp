@@ -4,7 +4,7 @@ import React from 'react';
 //import '../assets/css/styles.css';
 
 const NewsItem = (props) => {
-    console.log('this image:', props)
+
     return (
         <div className="small-12 news-column__content-item">
             <h1 className="news-column__content-title">{props.articleData.newsColumnTitle}</h1>
