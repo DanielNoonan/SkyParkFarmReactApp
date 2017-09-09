@@ -1164,6 +1164,7 @@ Using the Adjancent Sibling Combinator selector '+' */
     }
 
 .news-column__button {
+        text-align: center;
         background: #F6F6F6;
         color: #404040;
         font-weight: 700;

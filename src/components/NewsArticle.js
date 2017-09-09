@@ -1,13 +1,16 @@
 import React from 'react';
+import frontPageButton from './frontPageButton';
 //import '../css-modules/_flexgrid.css';
 //import '../assets/css/styles.css';
 
 
-const NewsArticle = ({articleData}) => {
+const NewsArticle = ({articleData, handlePrintButton}) => {
     return (
         <div>
 
+
             <div className='row'>
+                <frontPageButton onClick={handlePrintButton} className="news-column__button">Print</frontPageButton>
                 <div className='small-11 page-title'>
                     <div className='page-title__text-box'>
                         <h1>{articleData.mainArticleTitle}</h1>

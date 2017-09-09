@@ -1,9 +1,10 @@
 import React from 'react';
+import frontPageButton from './frontPageButton';
 //import '../css-modules/_flexgrid.css';
 //import '../css-modules/NewsItem.css';
 //import '../assets/css/styles.css';
 
-const NewsItem = ({articleData, buttonClicked}) => {
+const NewsItem = ({articleData, handleNewsButton}) => {
 
     return (
         <div className="small-12 news-column__content-item">
@@ -13,7 +14,8 @@ const NewsItem = ({articleData, buttonClicked}) => {
 
             <p className="news-column__intro-text">{articleData.introText}</p>
 
-            <a href="#/" onClick={buttonClicked} className="news-column__button modal-button--open">Read More</a>
+            <frontPageButton onClick={handleNewsButton} className="news-column__button">Read More</frontPageButton>
+
         </div>
     )
 }

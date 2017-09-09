@@ -16,17 +16,23 @@ class App extends React.Component {
             frontPage: this.props.frontPage,
             showFrontPage: true
         }
-        this.buttonClicked = this.buttonClicked.bind(this);
+        this.handleNewsButton = this.handleNewsButton.bind(this);
+        this.handlePrintButton = this.handlePrintButton.bind(this);
     }
 
 
-    buttonClicked(articleDataNumber) {
+    handleNewsButton(articleDataNumber) {
         this.setState({
             articleData: articleDataNumber,
             showFrontPage: false
         });
         window.scrollTo(0, 0)
         return;
+    }
+
+    handlePrintButton() {
+        console.log('print button clicked');
+        window.print();
     }
 
 
@@ -49,17 +55,17 @@ class App extends React.Component {
 
                 <div className='row news-column__content-box'>
 
-                        <NewsItem articleData={this.props.articleData1} buttonClicked={() => this.buttonClicked(this.props.articleData1)} />
+                        <NewsItem articleData={this.props.articleData1} handleNewsButton={() => this.handleNewsButton(this.props.articleData1)} />
 
-                        <NewsItem articleData={this.props.articleData2} buttonClicked={() => this.buttonClicked(this.props.articleData2)} />
+                        <NewsItem articleData={this.props.articleData2} handleNewsButton={() => this.handleNewsButton(this.props.articleData2)} />
 
-                        <NewsItem articleData={this.props.articleData3} buttonClicked={() => this.buttonClicked(this.props.articleData3)} />
+                        <NewsItem articleData={this.props.articleData3} handleNewsButton={() => this.handleNewsButton(this.props.articleData3)} />
 
-                        <NewsItem articleData={this.props.articleData4} buttonClicked={() => this.buttonClicked(this.props.articleData4)} />
+                        <NewsItem articleData={this.props.articleData4} handleNewsButton={() => this.handleNewsButton(this.props.articleData4)} />
 
-                        <NewsItem articleData={this.props.articleData5} buttonClicked={() => this.buttonClicked(this.props.articleData5)} />
+                        <NewsItem articleData={this.props.articleData5} handleNewsButton={() => this.handleNewsButton(this.props.articleData5)} />
 
-                        <NewsItem articleData={this.props.articleData6} buttonClicked={() => this.buttonClicked(this.props.articleData6)} />
+                        <NewsItem articleData={this.props.articleData6} handleNewsButton={() => this.handleNewsButton(this.props.articleData6)} />
 
                 </div>
             </div>
@@ -77,7 +83,7 @@ class App extends React.Component {
                             <FrontPage frontPage={this.state.frontPage} />
                             }
 
-                            <NewsArticle articleData={this.state.articleData} />
+                            <NewsArticle articleData={this.state.articleData} handlePrintButton={this.handlePrintButton} />
                         </div>
 
                     </div>
