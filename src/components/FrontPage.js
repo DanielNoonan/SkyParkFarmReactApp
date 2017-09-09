@@ -3,82 +3,82 @@ import React from 'react';
 //import '../assets/css/styles.css';
 
 
-const FrontPage = (props) => {
+const FrontPage = ({frontPage}) => {
     return (
         <div className='frontPageContainer'>
 
             <div className='row'>
                 <div className='small-11 page-title'>
                     <div className='page-title__text-box'>
-                        <h1>{props.frontPage.title}</h1>
-                        <h2>{props.frontPage.subtitle1}<em>{props.frontPage.subtitle2}</em></h2>
+                        <h1>{frontPage.title}</h1>
+                        <h2>{frontPage.subtitle1}<em>{frontPage.subtitle2}</em></h2>
                     </div>
                 </div>
             </div>
 
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={props.frontPage.frontPageImageOne} alt={props.frontPage.altTextOne} />
+                <img src={frontPage.frontPageImageOne} alt={frontPage.altTextOne} />
                 <p className='page-content__heading'>
-                    <strong><em>{props.frontPage.subtitle3}</em></strong>
+                    <strong><em>{frontPage.subtitle3}</em></strong>
                 </p>
 
                 <p>
-                    {props.frontPage.paragraph1}
+                    {frontPage.paragraph1}
                 </p>
                 <p>
-                    {props.frontPage.paragraph2}
+                    {frontPage.paragraph2}
                 </p>
             </div>
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={props.frontPage.frontPageImageTwo} alt={props.frontPage.altTextTwo} />
+                <img src={frontPage.frontPageImageTwo} alt={frontPage.altTextTwo} />
                 <p className='page-content__heading'>
-                    <strong><em>{props.frontPage.subtitle4}</em></strong>
+                    <strong><em>{frontPage.subtitle4}</em></strong>
                 </p>
 
                 <p>
-                    {props.frontPage.paragraph3}
+                    {frontPage.paragraph3}
                 </p>
                 <p>
-                    {props.frontPage.paragraph4}
+                    {frontPage.paragraph4}
                 </p>
             </div>
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={props.frontPage.frontPageImageThree} alt={props.frontPage.altTextThree} />
+                <img src={frontPage.frontPageImageThree} alt={frontPage.altTextThree} />
                 <p className='page-content__heading'>
-                    <strong><em>{props.frontPage.subtitle5}</em></strong>
+                    <strong><em>{frontPage.subtitle5}</em></strong>
                 </p>
 
                 <p>
-                    {props.frontPage.paragraph5}
+                    {frontPage.paragraph5}
                 </p>
                 <p>
-                    {props.frontPage.paragraph6}
+                    {frontPage.paragraph6}
                 </p>
                 <p>
-                    {props.frontPage.paragraph7}
+                    {frontPage.paragraph7}
                 </p>
             </div>
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={props.frontPage.frontPageImageFour} alt={props.frontPage.altTextFour} />
+                <img src={frontPage.frontPageImageFour} alt={frontPage.altTextFour} />
                 <p className='page-content__heading'>
-                    <strong><em>{props.frontPage.subtitle6}</em></strong>
+                    <strong><em>{frontPage.subtitle6}</em></strong>
                 </p>
 
                 <p>
-                    {props.frontPage.paragraph8}
+                    {frontPage.paragraph8}
                 </p>
             </div>
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={props.frontPage.frontPageImageFive} alt={props.frontPage.altTextFive} />
+                <img src={frontPage.frontPageImageFive} alt={frontPage.altTextFive} />
                 <p className='page-content__heading'>
-                    <strong><em>{props.frontPage.subtitle7}</em></strong>
+                    <strong><em>{frontPage.subtitle7}</em></strong>
                 </p>
 
                 <p>
-                    {props.frontPage.paragraph9}
+                    {frontPage.paragraph9}
                 </p>
                 <p>
-                    {props.frontPage.paragraph10}
+                    {frontPage.paragraph10}
                 </p>
             </div>
 
