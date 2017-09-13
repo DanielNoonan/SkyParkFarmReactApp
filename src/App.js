@@ -14,7 +14,7 @@ class App extends React.Component {
         this.state = {
             articleData: '',
             frontPage: this.props.frontPage,
-            showFrontPage: true
+            showFrontPage: true,
         }
         this.handleNewsButton = this.handleNewsButton.bind(this);
         this.handlePrintButton = this.handlePrintButton.bind(this);
@@ -84,6 +84,7 @@ class App extends React.Component {
                             }
 
                             <NewsArticle articleData={this.state.articleData} handlePrintButton={this.handlePrintButton} />
+
                         </div>
 
                     </div>

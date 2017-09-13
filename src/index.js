@@ -50,6 +50,7 @@ let frontPage = {
 }
 
 let articleData1 = {
+    button: 'Print',
     articleNumber: 1,
     newsColumnTitle: 'Petersfield Post',
     image: articleImageOne,
@@ -68,6 +69,7 @@ let articleData1 = {
 }
 
 let articleData2 = {
+    button: 'Print',
     articleNumber: 2,
     newsColumnTitle: 'Baby Deer Born Last Week',
     image: articleImageTwo,
@@ -79,6 +81,7 @@ let articleData2 = {
 }
 
 let articleData3 = {
+    button: 'Print',
     articleNumber: 3,
     newsColumnTitle: 'Quebec Cottage',
     image: articleImageThree,
@@ -90,6 +93,7 @@ let articleData3 = {
 }
 
 let articleData4 = {
+    button: 'Print',
     articleNumber: 4,
     newsColumnTitle: 'Farm Renovation',
     image: articleImageFour,
@@ -101,6 +105,7 @@ let articleData4 = {
 }
 
 let articleData5 = {
+    button: 'Print',
     articleNumber: 5,
     newsColumnTitle: 'Deer Feeding Open To Public',
     image: articleImageFive,
@@ -112,6 +117,7 @@ let articleData5 = {
 }
 
 let articleData6 = {
+    button: 'Print',
     articleNumber: 6,
     newsColumnTitle: 'Name A Deer Competition',
     image: articleImageSix,

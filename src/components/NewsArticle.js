@@ -10,7 +10,7 @@ const NewsArticle = ({articleData, handlePrintButton}) => {
 
 
             <div className='row'>
-                <frontPageButton onClick={handlePrintButton} className="news-column__button">Print</frontPageButton>
+               <frontPageButton onClick={handlePrintButton} className="news-column__button">{articleData.button}</frontPageButton>
                 <div className='small-11 page-title'>
                     <div className='page-title__text-box'>
                         <h1>{articleData.mainArticleTitle}</h1>
