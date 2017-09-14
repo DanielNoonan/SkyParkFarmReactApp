@@ -11,8 +11,9 @@ import frontPageImageThree from './assets/images/spf-sunrise-MEDIUM.jpg';
 import frontPageImageFour from './assets/images/deer-following-dom-MEDIUM.jpg';
 import frontPageImageFive from './assets/images/open-space-MEDIUM.jpg';
 
-import articleOneImageOne from './assets/images/races-MEDIUM.jpg';
+import articleOneImageOne from './assets/images/petersfield-post-header.jpg';
 import articleOneImageTwo from './assets/images/petersfield-post-article.jpg';
+import articleOneImageThree from './assets/images/races-MEDIUM.jpg';
 import articleTwoImageOne from './assets/images/mum-baby-deer-MEDIUM.jpg';
 import articleThreeImageOne from './assets/images/quebec-cottage-MEDIUM.jpg';
 import articleFourImageOne from './assets/images/farm-renovation-MEDIUM.jpg';
@@ -53,12 +54,13 @@ let frontPage = {
 let articleData1 = {
     button: 'Print',
     articleNumber: 1,
-    newsColumnTitle: 'Petersfield Post',
+    newsColumnTitle: '',
     image1: articleOneImageOne,
     image2: articleOneImageTwo,
+    image3: articleOneImageThree,
     altText: 'The races at Sky Park Farm',
     introText: 'The Petersfield Post prints local interest article on Sky Park Farm',
-    mainArticleTitle: "Farm hopes to hard surface 'races' so deer can feed easily",
+    mainArticleTitle: "",
     mainArticleSubtitle: "One of the 'races' at Sky Park Farm",
     paragraph1: 'A DEER farm near West Harting has applied to hard surface farm tracks to allow deer to move freely.',
     paragraph2: "Owners of Sky Park Farm on the Harting to Rogate road plan to hard surface tracks or 'races' between feeding meadows to ease the movement of deer between them.",
