@@ -19,14 +19,14 @@ const NewsArticle = ({articleData, handlePrintButton}) => {
             </div>
 
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={articleData.image1} alt='Scan of original newspaper cutting' />
-                <img src={articleData.image2} alt={articleData.altText} />
+                <img src={articleData.image1} alt={articleData.altText1} />
+                <img src={articleData.image2} alt={articleData.altText2} />
                 <p className='page-content__heading'>
                    <a href="http://www.southdowns.gov.uk/planning" target="blank">
                        {articleData.link}
                    </a>
                 </p>
-                <img src={articleData.image3} alt={articleData.altText} />
+                <img src={articleData.image3} alt={articleData.altText3} />
                 <p className='page-content__heading'>
                     <strong><em>{articleData.mainArticleSubtitle}</em></strong>
                 </p>
