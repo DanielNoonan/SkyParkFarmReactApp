@@ -1181,6 +1181,12 @@ Using the Adjancent Sibling Combinator selector '+' */
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
     }
+/*Farm App Change - previously nothing*/
+@media print {
+    .news-column__button {
+        display: none;
+    }
+}
 
 .news-column__button:hover {
             color: #BC7817;

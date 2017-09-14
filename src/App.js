@@ -13,7 +13,7 @@ class App extends React.Component {
         super(props);
         this.state = {
             articleData: '',
-            frontPage: this.props.frontPage,
+//            frontPage: this.props.frontPage,
             showFrontPage: true,
         }
         this.handleNewsButton = this.handleNewsButton.bind(this);
@@ -77,10 +77,10 @@ class App extends React.Component {
                     <div className='small-12 large-11'>
                         <div className='row page-content__inner-row page-content__inner-row--blue-border'>
 
-                    {/*Only shows FrontPage component if this.state.frontpage is true.
+                    {/*Only shows FrontPage component if this.state.showFrontpage is true.
                     It is set to false when a news item button is clicked */}
                            {this.state.showFrontPage &&
-                            <FrontPage frontPage={this.state.frontPage} />
+                            <FrontPage frontPage={this.props.frontPage} />
                             }
 
                             <NewsArticle articleData={this.state.articleData} handlePrintButton={this.handlePrintButton} />

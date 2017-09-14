@@ -10,7 +10,7 @@ const NewsItem = ({articleData, handleNewsButton}) => {
         <div className="small-12 news-column__content-item">
             <h1 className="news-column__content-title">{articleData.newsColumnTitle}</h1>
 
-            <img className="news-column__image" src={articleData.image} alt={articleData.altText} />
+            <img className="news-column__image" src={articleData.image1} alt={articleData.altText} />
 
             <p className="news-column__intro-text">{articleData.introText}</p>
 

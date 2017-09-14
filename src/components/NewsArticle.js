@@ -11,18 +11,25 @@ const NewsArticle = ({articleData, handlePrintButton}) => {
 
             <div className='row'>
                <frontPageButton onClick={handlePrintButton} className="news-column__button">{articleData.button}</frontPageButton>
-                <div className='small-11 page-title'>
+        {/*     <div className='small-11 page-title'>
                     <div className='page-title__text-box'>
                         <h1>{articleData.mainArticleTitle}</h1>
                     </div>
-                </div>
+                </div>      */}
             </div>
 
             <div className='small-12 large-11 page-content__content-box'>
-                <img src={articleData.image} alt={articleData.altText} />
+                <img src={articleData.image2} alt={articleData.altText} />
+                <p className='page-content__heading'>
+                   <a href="http://www.southdowns.gov.uk/planning" target="blank">
+                       {articleData.link}
+                   </a>
+                </p>
+                <img src={articleData.image1} alt='Scan of original newspaper cutting' />
                 <p className='page-content__heading'>
                     <strong><em>{articleData.mainArticleSubtitle}</em></strong>
                 </p>
+            {/*
                 <p>
                     {articleData.paragraph1}
                 </p>
@@ -42,13 +49,9 @@ const NewsArticle = ({articleData, handlePrintButton}) => {
                     {articleData.paragraph6}
                 </p>
                 <p>
-                   <a href="http://www.southdowns.gov.uk/planning" target="blank">
-                       {articleData.link}
-                   </a>
-                </p>
-                <p>
                     {articleData.paragraph7}
                 </p>
+            */}
             </div>
 
 

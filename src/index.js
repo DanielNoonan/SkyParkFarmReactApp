@@ -11,12 +11,13 @@ import frontPageImageThree from './assets/images/spf-sunrise-MEDIUM.jpg';
 import frontPageImageFour from './assets/images/deer-following-dom-MEDIUM.jpg';
 import frontPageImageFive from './assets/images/open-space-MEDIUM.jpg';
 
-import articleImageOne from './assets/images/races-MEDIUM.jpg';
-import articleImageTwo from './assets/images/mum-baby-deer-MEDIUM.jpg';
-import articleImageThree from './assets/images/quebec-cottage-MEDIUM.jpg';
-import articleImageFour from './assets/images/farm-renovation-MEDIUM.jpg';
-import articleImageFive from './assets/images/deer-grazing-lensflare-MEDIUM.jpg';
-import articleImageSix from './assets/images/red-deer-MEDIUM.jpg';
+import articleOneImageOne from './assets/images/races-MEDIUM.jpg';
+import articleOneImageTwo from './assets/images/petersfield-post-article.jpg';
+import articleTwoImageOne from './assets/images/mum-baby-deer-MEDIUM.jpg';
+import articleThreeImageOne from './assets/images/quebec-cottage-MEDIUM.jpg';
+import articleFourImageOne from './assets/images/farm-renovation-MEDIUM.jpg';
+import articleFiveImageOne from './assets/images/deer-grazing-lensflare-MEDIUM.jpg';
+import articleSixImageOne from './assets/images/red-deer-MEDIUM.jpg';
 
 let frontPage = {
     title: 'The Reintroduction of Red Deer into the Parish of Harting.',
@@ -53,7 +54,8 @@ let articleData1 = {
     button: 'Print',
     articleNumber: 1,
     newsColumnTitle: 'Petersfield Post',
-    image: articleImageOne,
+    image1: articleOneImageOne,
+    image2: articleOneImageTwo,
     altText: 'The races at Sky Park Farm',
     introText: 'The Petersfield Post prints local interest article on Sky Park Farm',
     mainArticleTitle: "Farm hopes to hard surface 'races' so deer can feed easily",
@@ -72,7 +74,7 @@ let articleData2 = {
     button: 'Print',
     articleNumber: 2,
     newsColumnTitle: 'Baby Deer Born Last Week',
-    image: articleImageTwo,
+    image1: articleTwoImageOne,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Two',
     mainArticleTitle: 'Baby Deer Born Last Week',
@@ -84,7 +86,7 @@ let articleData3 = {
     button: 'Print',
     articleNumber: 3,
     newsColumnTitle: 'Quebec Cottage',
-    image: articleImageThree,
+    image1: articleThreeImageOne,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Three',
     mainArticleTitle: 'Luxury Accommodation',
@@ -96,7 +98,7 @@ let articleData4 = {
     button: 'Print',
     articleNumber: 4,
     newsColumnTitle: 'Farm Renovation',
-    image: articleImageFour,
+    image1: articleFourImageOne,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Four',
     mainArticleTitle: 'Farm Renovation',
@@ -108,7 +110,7 @@ let articleData5 = {
     button: 'Print',
     articleNumber: 5,
     newsColumnTitle: 'Deer Feeding Open To Public',
-    image: articleImageFive,
+    image1: articleFiveImageOne,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Five',
     mainArticleTitle: 'Deer Feeding Open To Public',
@@ -120,7 +122,7 @@ let articleData6 = {
     button: 'Print',
     articleNumber: 6,
     newsColumnTitle: 'Name A Deer Competition',
-    image: articleImageSix,
+    image1: articleSixImageOne,
     altText: 'This is some alternative text',
     introText: 'Introduction Text Six',
     mainArticleTitle: 'Name A Deer Competition',
