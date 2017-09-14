@@ -1181,7 +1181,7 @@ Using the Adjancent Sibling Combinator selector '+' */
         -webkit-transition: all 0.2s;
         transition: all 0.2s;
     }
-/*Farm App Change - previously nothing*/
+/*Farm App Changed - previously nothing*/
 @media print {
     .news-column__button {
         display: none;
